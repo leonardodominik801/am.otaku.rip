@@ -1,0 +1,8 @@
+/* @sonnyksimon "Sonny Kothapally <me@sonnyksimon.com>" */
+::selection {
+  background: #FDC;
+}
+
+::-moz-selection {
+  background:#FDC;
+}
