@@ -1,20 +1,12 @@
 /* @sonnyksimon "Sonny Kothapally <me@sonnyksimon.com>" */
-::selection {
-  background: #FDC;
-}
-
-::-moz-selection {
-  background:#FDC;
-}
-
-html {scroll-behavior:smooth}
-
-#content ul>li {font-family:monospace;}
-
-#content>div {    padding: 1rem; margin-bottom: 1rem;   }
-
-.anime {background-color: #fcc;}
-.kdrama {background-color: #cff;}
-.chinese-tvshows {background-color: #ccf;}
-
-#content>div>ul>li:before{content:"-"}
+::selection {background: #FDC }
+::-moz-selection  {background:#FDC }
+html {scroll-behavior:smooth }
+body {background:url(/background.jpg) }
+#header, #content {background: #fffffff8 }
+#content ul>li {font-family:monospace }
+#content>div {padding: 1rem; margin-bottom: 1rem; border-radius: 10px}
+.anime {background-color: #ffcccc4d}
+.kdrama {background-color: #ccffff73}
+.chinese-tvshows {background-color: #ccccff59}
+#content>div>ul>li:before {content:"-"}
